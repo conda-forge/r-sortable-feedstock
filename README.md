@@ -1,11 +1,11 @@
-About r-sortable
-================
+About r-sortable-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sortable-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rstudio/sortable, https://rstudio.github.io/sortable/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sortable-feedstock/blob/main/LICENSE.txt)
 
 Summary: Enables drag-and-drop behaviour in Shiny apps, by exposing the functionality of the 'SortableJS' <https://sortablejs.github.io/Sortable/> JavaScript library as an 'htmlwidget'. You can use this in Shiny apps and widgets, 'learnr' tutorials as well as R Markdown. In addition, provides a custom 'learnr' question type - 'question_rank()' - that allows ranking questions with drag-and-drop.
 
