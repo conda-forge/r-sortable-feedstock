@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sortable_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sortable/sortable_{{ version }}.tar.gz
-  sha256: 4cd047d989fc115aca992fd1fd8bb8f78113963ac0fea58e1453442599a4ccf8
+  sha256: 9e2ed1eaea9f43c54cd15d7fcdc413e13d2e1758fe52de5a10f1f39a3a8b9006
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
